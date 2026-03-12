@@ -1,145 +1,84 @@
-# NFTs vs SOL
+# NFTs vs SOL — Simple Guide
 
-## What this indicator does
-
-This indicator compares **SOL's momentum** against a **custom basket of NFT-related or ecosystem tokens**.
-
-It helps show whether that basket is acting **stronger or weaker than SOL**.
-
----
+This indicator compares **SOL price momentum** against a combined **proxy flow** made up of NFT-related or related-token activity.
 
 ## What you are looking at
 
-### Yellow line - `SOL Z`
-This is **SOL's momentum line**.
+### Blue bars — Divergence
+The blue bars show the gap between the red line and the yellow line.
 
-It shows whether SOL is currently acting:
-- **stronger than usual** when the yellow line is higher
-- **weaker than usual** when the yellow line is lower
+- **Blue above zero:** proxy activity is stronger than SOL momentum
+- **Blue below zero:** SOL momentum is stronger than proxy activity, or proxy activity is weaker
+- **Blue rising:** the gap is improving
+- **Blue falling:** the gap is getting weaker
 
-Think of it as a simple strength reading for SOL.
-
----
-
-### Red line - `Proxy Flow Z`
-This is the **basket strength line**.
-
-It combines the selected proxy tokens into one line using their:
-- volume
-- optional dollar volume
-- assigned weights
-
-This line shows whether the selected basket is:
-- **heating up** when the red line rises
-- **cooling off** when the red line falls
-
-Think of it as a simple activity and interest reading for the chosen NFT / ecosystem basket.
+Think of the blue bars as the main signal.
 
 ---
 
-### Blue bars - `Divergence`
-This is the most important part of the indicator.
+### Yellow line — SOL Z
+This is SOL’s momentum line.
 
-The blue bars show the **difference between the red line and the yellow line**:
-
-**Divergence = Proxy Flow Z - SOL Z**
-
-### When the blue bars are above zero
-The basket is acting **stronger than SOL**.
-
-This can suggest:
-- more interest flowing into the proxy basket
-- the basket may be leading SOL
-- NFT / related tokens are showing more strength than SOL
-
-### When the blue bars are below zero
-The basket is acting **weaker than SOL**.
-
-This can suggest:
-- less interest in the proxy basket
-- the basket may be lagging behind SOL
-- SOL is outperforming the selected basket
-
-### When the blue bars are rising
-The basket is improving **relative to SOL**.
-
-Even if the bars are still below zero, rising bars can mean:
-- weakness is easing
-- the basket is catching up
-- relative strength is improving
-
-### When the blue bars are falling
-The basket is weakening **relative to SOL**.
-
-Even if the bars are still above zero, falling bars can mean:
-- strength is fading
-- the basket is losing pace
-- relative strength is slipping
+- **Yellow going up:** SOL is gaining strength
+- **Yellow going down:** SOL is losing strength
+- **Yellow above zero:** stronger-than-normal momentum
+- **Yellow below zero:** weaker-than-normal momentum
 
 ---
 
-## Lead and Lag signals
+### Red line — Proxy Flow Z
+This is the combined activity line for the selected proxy tokens.
 
-### Green triangle - `LEAD`
-This appears when the blue bars cross **up through zero**.
-
-Simple meaning:
-- the basket may be starting to lead SOL
-
-### Red triangle - `LAG`
-This appears when the blue bars cross **down through zero**.
-
-Simple meaning:
-- the basket may be starting to lag behind SOL
-
-These are **context signals**, not guaranteed entries or exits.
+- **Red going up:** proxy basket activity is strengthening
+- **Red going down:** proxy basket activity is weakening
+- **Red above zero:** stronger-than-normal proxy activity
+- **Red below zero:** weaker-than-normal proxy activity
 
 ---
 
-## How to read the lines together
+## How to read it quickly
 
-### If the red line is above the yellow line
-The proxy basket is stronger than SOL.
+### Bullish-type behavior
+- Red is rising
+- Red is above yellow
+- Blue bars are above zero or climbing
 
-### If the red line is below the yellow line
-The proxy basket is weaker than SOL.
+This suggests the proxy basket is showing more strength than SOL.
 
-### If both lines are rising
-Both SOL and the basket are improving, but compare which one is stronger.
+### Weak / bearish-type behavior
+- Red is falling
+- Red is below yellow
+- Blue bars are below zero or dropping
 
-### If both lines are falling
-Both are weakening, but compare which one is falling harder.
-
-### If red rises while yellow falls
-That is a strong sign the basket is outperforming SOL.
-
-### If yellow rises while red falls
-That is a strong sign SOL is outperforming the basket.
+This suggests the proxy basket is weaker than SOL, or losing strength faster.
 
 ---
 
-## Simple way to use it
+## LEAD and LAG signals
 
-This indicator answers one question:
+### LEAD
+A green **LEAD** marker appears when the divergence crosses up through zero.
 
-**Is the selected basket gaining strength against SOL, or losing strength against SOL?**
+That means proxy flow has moved above SOL momentum.
 
-Use it to help judge:
-- relative strength
-- momentum shifts
-- whether NFT / proxy tokens are leading or lagging
-- whether interest is expanding or fading
+### LAG
+A red **LAG** marker appears when the divergence crosses down through zero.
+
+That means proxy flow has dropped below SOL momentum.
+
+---
+
+## Simple way to think about it
+
+- **Yellow** = what SOL is doing
+- **Red** = what the proxy basket is doing
+- **Blue** = the difference between them
+
+If the **red line is stronger than the yellow line**, the **blue bars go positive**.  
+If the **red line is weaker than the yellow line**, the **blue bars go negative**.
 
 ---
 
 ## Important note
 
-This tool is best used as a **confirmation tool**, not as a standalone buy or sell trigger.
-
-It is meant to help you read:
-- strength
-- weakness
-- leadership
-- lagging behavior
-
-in a simple visual way.
+This tool is best used as a **context tool**, not as a standalone buy or sell button. It helps show whether the selected proxy basket is gaining or losing strength compared with SOL.
