@@ -2,7 +2,7 @@
 // © imaclone_eth | imaclone.x | 0ximaclone | Zen Silva | Ryanshatch
 
 //@version=6
-indicator("NFT Divers", overlay = false, precision = 3, dynamic_requests = true)
+indicator("NFTSOL Divers", overlay = false, precision = 3, dynamic_requests = true)
 
 // =============================================================================
 // Developer Notes
@@ -268,8 +268,8 @@ plot(sol_z, title = "SOL Z",        color = color.new(c_sol, 0))
 plot(v_z,   title = "Proxy Flow Z", color = color.new(c_flow, 0))
 hline(0, "Zero", color = color.gray)
 
-plotshape(lead, title = "Leading", location = location.bottom, style = shape.triangleup,   text = "NFTs", size = size.small, color = color.green)
-plotshape(lag,  title = "Lagging", location = location.top, style = shape.triangledown, text = "SOL",  size = size.small, color = color.red)
+plotshape(lead, title = "Leading", location = location.bottom, style = shape.triangleup,   text = "", size = size.small, color = color.green)
+plotshape(lag,  title = "Lagging", location = location.top, style = shape.triangledown, text = "",  size = size.small, color = color.red)
 
 // =============================================================================
 // Stats Table
